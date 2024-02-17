@@ -28,7 +28,7 @@ void myFractal2(float x, float y, float siz) {
   stroke(0, 0, 255, 5);
   ellipse(x, y, siz, siz);
 
-  if (siz > 10) {
+  if (siz > 5) {
     for (int i = 2; i <= 2; i *= 2) {
       myFractal2(x - siz/i, y, siz/i);
       myFractal2(x + siz/i, y, siz/i);
